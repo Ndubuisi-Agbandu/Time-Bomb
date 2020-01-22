@@ -1,0 +1,38 @@
+.navbar-brand img {
+  width: 100px !important;
+}
+
+.nav-link {
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 992px) {
+  a.nav-link-hover:hover {
+    color: skyblue !important;
+  }
+}
+
+@media (max-width: 991px) {
+  div.collapse {
+    background-color: black !important;
+  }
+
+  .nav-link {
+    margin: 0 !important;
+    color: white !important;
+    font-size: 1em !important;
+  }
+
+  .nav-item {
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+  }
+
+  .github-link-sm {
+    display: block !important;
+  }
+
+  .github-link-lg {
+    display: none;
+  }
+}
